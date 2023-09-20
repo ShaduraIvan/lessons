@@ -1,0 +1,49 @@
+@import url("reset.css");
+
+[class*="__container"] {
+	color: red;
+}
+.header__container {
+	color: purple;
+}
+p {
+	color: green;
+}
+a {
+	color: blueviolet;
+}
+li {
+	color: aquamarine;
+}
+.title-jupiter {
+	color: blue;
+}
+#earth {
+	color: yellow;
+}
+.main__menu-list,
+li,
+.main__menu-item {
+	color: red;
+}
+article .uranus {
+	color: turquoise;
+}
+.content__title.title {
+	color: brown;
+}
+.footer a {
+	color: burlywood;
+}
+.main > p {
+	color: teal;
+}
+.venus * {
+	color: aqua;
+}
+#pluton ~ p {
+	color: red;
+}
+.pluton + p {
+	color: hotpink;
+}
