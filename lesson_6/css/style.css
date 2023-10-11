@@ -189,13 +189,13 @@ body {
 	max-width: 563px;
 	margin-right: 29px;
 }
-.develop__info h2 {
+.develop__info h3 {
 	font-family: "Inter";
 	font-size: 28px;
 	font-weight: 400;
 	color: #d06b00;
 }
-.develop__info h1 {
+.develop__info h2 {
 	color: #0e333d;
 	font-family: "DDM+Serif+Text";
 	font-size: 59px;
