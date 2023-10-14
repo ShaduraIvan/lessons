@@ -8,22 +8,16 @@
 body {
 	font-family: Poppins, sans-serif;
 	font-size: 18px;
-	line-height: 1;
-	/* overflow: hidden; */
+	line-height: 1.2;
 }
 .text {
 	font-family: Inter;
-	font-size: 18px;
 	font-weight: 400;
-	line-height: 1.5;
 	color: #7d7d7d;
 }
 .list {
 	font-family: Inter;
-	font-size: 18px;
-	font-style: normal;
 	font-weight: 500;
-	line-height: 1.4;
 	color: #7d7d7d;
 }
 /* Header */
@@ -163,7 +157,8 @@ body {
 }
 .top__list {
 }
-.top__list-list {
+.top__list-list li:not(:last-child) {
+	padding-bottom: 35px;
 }
 .top__list-item {
 	list-style: disc;
@@ -177,7 +172,8 @@ body {
 .midle__list {
 	margin-left: 30px;
 }
-.midle__list-list {
+.midle__list-list li:not(:last-child) {
+	padding-bottom: 35px;
 }
 .midle__list-item {
 	list-style: decimal-leading-zero;
