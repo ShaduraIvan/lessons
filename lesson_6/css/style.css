@@ -9,22 +9,17 @@ body {
 	font-family: Poppins, sans-serif;
 	font-size: 18px;
 	color: #7d7d7d;
-	line-height: 1;
-	/* overflow: hidden; */
+	line-height: 1.2;
 }
 .text {
 	font-family: "Inter";
-	font-size: 18px;
 	font-weight: 400;
-	line-height: 1.5;
 	color: #7d7d7d;
 }
 .list {
 	font-family: "Inter";
-	font-size: 18px;
 	font-style: normal;
 	font-weight: 500;
-	line-height: 1.4;
 	color: #7d7d7d;
 }
 /* Header */
@@ -95,10 +90,8 @@ body {
 .main__text {
 }
 .management {
-	margin: 0 10px;
 }
 .management .management__img {
-	margin-left: -10px;
 }
 .management__img {
 	margin-bottom: 37px;
@@ -109,7 +102,6 @@ body {
 .management__title {
 	font-size: 30px;
 	font-weight: 600;
-	line-height: 1.3;
 	color: #37393f;
 	margin-bottom: 37px;
 }
@@ -121,7 +113,6 @@ body {
 .management__text .color {
 	font-size: 20px;
 	font-weight: 600;
-	line-height: 127%;
 	color: #6b77e5;
 	padding-bottom: 12px;
 }
@@ -147,7 +138,6 @@ body {
 .benefits__info-text h3 {
 	font-size: 25px;
 	font-weight: 600;
-	line-height: 1.27;
 	color: #37393f;
 	text-transform: capitalize;
 	padding-bottom: 20px;
@@ -155,16 +145,15 @@ body {
 .benefits__info-text p {
 	font-size: 20px;
 	font-weight: 600;
-	line-height: 1.27;
 	color: #40ddb6;
 }
 .benefits__list {
+	font-size: 18px;
 }
-.list-benefits {
+.list-benefits li {
 }
 
 .list-benefits-item {
-	font-size: 18px;
 	font-weight: 400;
 	color: #7d7d7d;
 	padding-bottom: 35px;
@@ -178,6 +167,7 @@ body {
 	margin: 0 auto;
 	border: solid 5px #b1acac;
 	margin-bottom: 50px;
+	background-color: #fff9f4;
 }
 .block2__container {
 }
@@ -194,27 +184,27 @@ body {
 	font-size: 28px;
 	font-weight: 400;
 	color: #d06b00;
+	padding-top: 21px;
+	padding-bottom: 45px;
 }
 .develop__info h2 {
 	color: #0e333d;
 	font-family: "DDM+Serif+Text";
 	font-size: 59px;
 	font-weight: 400;
-	line-height: 1.4;
+	padding-bottom: 57px;
 }
 .develop__info p {
 	font-family: "Inter";
 	font-size: 20px;
 	font-weight: 400;
 	color: #474747;
-	line-height: 1.8;
 	margin-bottom: 10px;
+	line-height: 1.8;
 }
-
-.develop__info-right {
-	margin-right: 22px;
+.develop__info img {
+	width: 100%;
 }
-
 /* ==================== */
 
 /* Footer */
