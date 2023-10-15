@@ -1,0 +1,357 @@
+/* Fonts */
+@import url("fonts.css");
+/* ==================== */
+/* Reset style */
+@import url("reset.css");
+/* ==================== */
+
+body {
+	font-family: Poppins, sans-serif;
+	font-size: 18px;
+	color: #7d7d7d;
+	line-height: 1.2;
+}
+/* Header */
+.header a {
+	text-decoration: underline rgba(0, 255, 255, 0.7) 4px;
+}
+.header__container,
+.footer__container {
+	max-width: 1400px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.header__content {
+	background-color: #b1acac;
+	margin-bottom: 50px;
+	box-shadow:
+		11px 8px 34px #000,
+		12px 12px 18px rgb(226, 94, 94);
+	padding: 10px;
+}
+
+.logo {
+	width: 150px;
+	box-shadow:
+		0px 1px 2px 0px rgba(0, 255, 255, 0.7),
+		1px 2px 4px 0px rgba(0, 255, 255, 0.7),
+		2px 4px 8px 0px rgba(0, 255, 255, 0.7),
+		2px 4px 16px 0px rgba(0, 255, 255, 0.7);
+}
+.logo__title {
+	vertical-align: top;
+	display: inline-block;
+	padding: 50px 100px 0 20px;
+}
+.logo__title h1,
+.footer__link {
+	font-size: 25px;
+	font-weight: 600;
+	text-decoration: underline rgba(0, 255, 255, 0.7) 4px;
+	text-shadow: 4px -1px 3px #000;
+}
+.header__link {
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.header__link-item {
+	font-family: "Inter";
+	color: #000;
+	font-size: 22px;
+	display: inline-block;
+	padding-right: 25px;
+	text-transform: uppercase;
+}
+.header__link-top {
+	margin-bottom: 15px;
+}
+/* ==================== */
+
+/* Main */
+.title {
+	color: #37393f;
+	font-size: 40px;
+	font-weight: 700;
+	padding-bottom: 11px;
+}
+.sub-title {
+	color: #37393f;
+	font-size: 30px;
+	font-weight: 700;
+	padding-bottom: 8px;
+}
+span {
+	color: #40ddb6;
+}
+.licencing p {
+	font-family: Inter;
+	font-weight: 400;
+	line-height: 1.4;
+}
+.text-list {
+	color: #40ddb6;
+}
+.clothing {
+	color: #807d7e;
+	font-family: Causten;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 33.5px; /* 167.5% */
+	letter-spacing: 0.4px;
+}
+/* Block1 */
+.block1 {
+	max-width: 1250px;
+	margin: 0 auto;
+	padding: 10px 15px;
+	border: solid 5px #b1acac;
+	border-top: none;
+	margin-bottom: 50px;
+	box-shadow:
+		16.5px 28px 8.3px rgba(0, 0, 0, 0.229),
+		30px 51px 66px rgba(0, 0, 0, 0.59);
+	outline: 0.1px solid #000;
+}
+
+.licencing {
+	margin: 150px 0;
+}
+.licencing__title {
+	color: #37393f;
+	margin-bottom: 70px;
+}
+.title__top {
+	text-align: center;
+	margin-bottom: 70px;
+}
+
+.title__top-square {
+	width: 12px;
+	height: 12px;
+	background-color: #40ddb6;
+	display: inline-block;
+	padding-right: 6px;
+}
+.title__top p {
+	display: inline-block;
+	font-family: Inter;
+	font-weight: 500;
+	margin-bottom: 16px;
+}
+.licencing__sub-title-text {
+	font-size: 60px;
+	font-weight: 700;
+}
+
+.licencing__info-icon,
+.licencing__info-photography {
+	margin-bottom: 100px;
+}
+.licencing__info-icon p {
+	padding-bottom: 32px;
+}
+.licencing__info-photography div:not(:last-child) {
+	margin-bottom: 24px;
+}
+
+/* Block2 */
+.block2 {
+	max-width: 830px;
+	margin: 0 auto;
+	border: solid 5px #b1acac;
+	margin-bottom: 50px;
+	box-shadow:
+		16.5px 28px 8.3px rgba(0, 0, 0, 0.229),
+		30px 51px 66px rgba(0, 0, 0, 0.59);
+}
+.project {
+	padding: 10px 15px;
+}
+.project__title {
+	margin-bottom: 13px;
+}
+.project__title h2 {
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 1.2;
+	color: #37393f;
+}
+.text__up {
+	padding-bottom: 30px;
+}
+.block2 .text,
+.list {
+	margin-bottom: 35px;
+}
+.list {
+	margin-left: 16px;
+}
+
+.top__list-list li:not(:last-child) {
+	padding-bottom: 35px;
+}
+.top__list-item {
+	list-style: disc;
+}
+
+.midle__list {
+	margin-left: 30px;
+}
+.midle__list-list li:not(:last-child) {
+	padding-bottom: 35px;
+}
+.midle__list-item {
+	list-style: decimal-leading-zero;
+}
+
+/* Block3 */
+.block3 {
+	max-width: 1270px;
+	margin: 0 auto;
+	padding: 10px 15px;
+	border: solid 5px #b1acac;
+	margin-bottom: 50px;
+	box-shadow:
+		16.5px 28px 8.3px rgba(0, 0, 0, 0.229),
+		30px 51px 66px rgba(0, 0, 0, 0.59);
+}
+.clothing {
+	/* margin: 100px 0 100px 21px; */
+	color: #807d7e;
+	font-family: Causten;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1.6;
+	letter-spacing: 0.4px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-left: 21px;
+}
+.clothing__head {
+	margin-bottom: 30px;
+}
+.clothing__head-mark {
+	display: inline-block;
+	width: 6px;
+	height: 28px;
+	border-radius: 10px;
+	background: #8a33fd;
+	margin: 0 15px -4px -28px;
+}
+.clothing__head-title {
+	display: inline-block;
+}
+.clothing__head-title h2 {
+	color: #3c4242;
+	font-family: Core Sans C;
+	font-size: 28px;
+	font-weight: 600;
+	line-height: 1.2;
+	letter-spacing: 0.56px;
+}
+.clothing__info h3 {
+	margin-bottom: 25px;
+}
+.clothing__info p:not(:last-child) {
+	padding-bottom: 20px;
+}
+
+.clothing__sub-title {
+	color: #807d7e;
+	font-family: Core Sans C;
+	font-size: 20px;
+	font-weight: 600;
+}
+.online__text {
+	margin-bottom: 25px;
+}
+
+.clothing__text span {
+	color: #807d7e;
+	font-weight: 700;
+}
+
+.clothing__link {
+	font-family: Core Sans C;
+	font-size: 20px;
+	font-weight: 600;
+}
+/* ==================== */
+
+/* Block4 */
+.block4 {
+	max-width: 1205px;
+	margin: 0 auto;
+	padding: 10px 15px;
+	border: solid 5px #b1acac;
+	margin-bottom: 50px;
+	box-shadow:
+		16.5px 28px 8.3px rgba(0, 0, 0, 0.229),
+		30px 51px 66px rgba(0, 0, 0, 0.59);
+}
+.jewellery {
+	font-family: "Cormorant Infant", serif;
+	color: #606060;
+	font-size: 0;
+	font-weight: 700;
+	line-height: 1;
+	margin: 100px 0;
+}
+.jewellery__info {
+	margin: 70px 89px 0 0;
+	display: inline-block;
+	max-width: 503px;
+}
+.jewellery__info h3 {
+	color: #d58417;
+	font-size: 20px;
+	text-transform: uppercase;
+	padding-bottom: 27px;
+}
+.jewellery__info h2 {
+	color: #000;
+	font-size: 64px;
+	text-transform: capitalize;
+	padding-bottom: 31px;
+}
+.jewellery__info p {
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 1.4;
+}
+.jewellery__img {
+	display: inline-block;
+	vertical-align: top;
+}
+.jewellery__img-border {
+	display: inline-block;
+	border: 1px solid #502203;
+	border-radius: 235px;
+	vertical-align: middle;
+}
+.left-img {
+	margin-right: 30px;
+	width: 177px;
+	height: 336px;
+}
+.right-img {
+	width: 307px;
+	height: 500px;
+}
+.jewellery__img-left {
+	margin-top: 14px;
+	margin-left: -10px;
+}
+
+.jewellery__img-right {
+	margin-top: 19px;
+	margin-left: -11px;
+}
+/* Footer */
+.footer__link {
+	margin-left: 220px;
+	padding: 0 0 50px 0;
+	font-style: italic;
+}
+/* ==================== */
