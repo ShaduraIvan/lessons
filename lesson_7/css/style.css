@@ -11,6 +11,17 @@ body {
 	color: #7d7d7d;
 	line-height: 1.2;
 }
+.main__container {
+	max-width: 1300px;
+	margin: 0 auto;
+}
+.on-top {
+	text-align: right;
+	margin-bottom: 30px;
+}
+.on-top img {
+	width: 100px;
+}
 /* Header */
 .header a {
 	text-decoration: underline rgba(0, 255, 255, 0.7) 4px;
