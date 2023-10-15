@@ -205,6 +205,9 @@ body {
 .develop__info img {
 	width: 100%;
 }
+.develop__info-right {
+	margin-right: 22px;
+}
 /* ==================== */
 
 /* Footer */
