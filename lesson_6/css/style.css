@@ -24,6 +24,7 @@ body {
 }
 /* Header */
 .header {
+	margin-bottom: 50px;
 }
 .header__container,
 .footer__container {
@@ -33,7 +34,6 @@ body {
 }
 .header__content {
 	background-color: #b1acac;
-	margin-bottom: 50px;
 	box-shadow:
 		11px 8px 34px #000,
 		12px 12px 18px rgb(226, 94, 94);
@@ -107,7 +107,7 @@ body {
 }
 .management__text {
 }
-.management__text p {
+.management__text p:not(:last-child) {
 	padding-bottom: 40px;
 }
 .management__text .color {
@@ -172,6 +172,7 @@ body {
 .block2__container {
 }
 .develop {
+	font-size: 0;
 	margin: 10px 10px;
 }
 .develop__info {
