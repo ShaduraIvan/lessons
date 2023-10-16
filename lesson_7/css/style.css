@@ -11,6 +11,9 @@ body {
 	color: #7d7d7d;
 	line-height: 1.2;
 }
+.header {
+	margin-bottom: 50px;
+}
 .main__container {
 	max-width: 1300px;
 	margin: 0 auto;
@@ -34,7 +37,6 @@ body {
 }
 .header__content {
 	background-color: #b1acac;
-	margin-bottom: 50px;
 	box-shadow:
 		11px 8px 34px #000,
 		12px 12px 18px rgb(226, 94, 94);
@@ -177,7 +179,7 @@ span {
 		30px 51px 66px rgba(0, 0, 0, 0.59);
 }
 .project {
-	padding: 10px 15px;
+	margin: 10px 15px;
 }
 .project__title {
 	margin-bottom: 13px;
@@ -274,7 +276,7 @@ span {
 	font-size: 20px;
 	font-weight: 600;
 }
-.online__text {
+.online {
 	margin-bottom: 25px;
 }
 
